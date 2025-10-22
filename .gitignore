@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# dati (non versionare grezzi e pesanti)
+data/*.csv
+data/*.xlsx
+data/raw/
