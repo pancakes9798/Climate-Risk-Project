@@ -10,9 +10,6 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# dati (non versionare grezzi e pesanti)
-data/*.csv
-data/*.xlsx
-data/raw/
+
 
 Books/
