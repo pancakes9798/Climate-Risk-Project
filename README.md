@@ -17,7 +17,7 @@ This project instead studies how climate transition pathways can alter the joint
 
 with particular attention to **carbon-intensive sectors**.
 
-The objective of the project is not forecasting, but structural sensitivity analysis.
+The objective of the project is forecasting untill 2100 the yield curve and the credit spread curve integrating the climate risk.
 
 ---
 
