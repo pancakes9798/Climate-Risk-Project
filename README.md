@@ -1,43 +1,57 @@
 # Credit Spreads, Yield Curve and Climate Risk
 
-This repository explores the interaction between credit spreads, the term structure of interest rates, and climate-related risk, with a focus on transition risk under different climate scenarios.
+Long-horizon projections of the **risk-free yield curve** and the **credit-spread curve** under **climate transition scenarios (SSP)**, with a focus on carbon-intensive sectors.
 
-The core idea is that climate change — and, more importantly, climate policy — affects credit risk not only through firm-specific fundamentals, but also through the shape and dynamics of the yield curve. Ignoring this channel may lead to a systematic underestimation of long-horizon default risk.
+> Developed as the capstone project of the Executive Master in *Quantitative Methods for Climate Risk* (École Polytechnique).
 
 ---
 
 ## Motivation
 
-Traditional credit risk models typically treat the yield curve as an exogenous macro-financial input and climate risk as an add-on stress scenario.  
-This project instead studies how climate transition pathways can alter the joint dynamics of:
+Traditional credit-risk models treat the yield curve as an exogenous macro-financial input and climate risk as an add-on stress scenario.
+This project studies how climate transition pathways can change the **joint dynamics** of:
 
 - the risk-free term structure,
 - credit spreads,
-- firm-level default probabilities,
+- firm-level default probabilities.
 
-with particular attention to **carbon-intensive sectors**.
+The core idea: climate policy affects credit risk not only through firm fundamentals, but also through the shape and dynamics of the yield curve. Ignoring this channel can systematically understate long-horizon default risk.
 
-The objective of the project is forecasting untill 2100 the yield curve and the credit spread curve integrating the climate risk.
+**Goal:** forecast the yield curve and the credit-spread curve up to 2100, integrating climate transition risk.
 
----
+## Methodology
 
-## Methodology (High Level)
+- **Term-structure model** for the risk-free curve
+- **Credit-spread decomposition** into macro and climate-related components
+- **Scenario-based shocks** from the Shared Socioeconomic Pathways (SSP)
+- **Firm-level exposures** calibrated on sectoral and balance-sheet information
 
-The project combines:
+Climate risk enters mainly through transition channels (carbon pricing, policy intensity, demand destruction) rather than physical risk.
 
-- term structure modeling for the yield curve,
-- credit spread decomposition into macro and climate-related components,
-- scenario-based shocks derived from Shared Socioeconomic Pathways (SSP),
-- firm-level exposures calibrated using sectoral and balance-sheet information.
+## Results
 
-Climate risk enters the model primarily through transition-related channels (e.g. carbon pricing, policy intensity, demand destruction), rather than purely physical risk.
+<!-- TODO: add 1–2 key charts (e.g. projected curves by SSP scenario) and a short takeaway -->
 
----
+## Repository structure
 
-## Repository Structure
-
-```text
+```
 .
-├── data/              # Input data (where applicable)
-├── src/               # Yield curve and credit spread code
-└── README.md
+├── data/         # input data (where redistributable)
+├── src/          # yield-curve and credit-spread code
+├── Papers/       # reference papers
+├── references/   # bibliography
+└── main.py       # entry point
+```
+
+## Getting started
+
+```bash
+git clone https://github.com/pancakes9798/Climate-Risk-Project.git
+cd Climate-Risk-Project
+uv sync
+uv run python main.py
+```
+
+## Author
+
+Emanuele Migliaccio — PhD candidate in Quantitative Finance, Sapienza University of Rome
