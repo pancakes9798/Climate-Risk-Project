@@ -1,0 +1,31 @@
+variant,sector,riskfree_shift_bp,climate_spread_bp,bond_value_change
+central,Oil & gas,6.43869,59.3745,-0.0636942
+central,Utilities,6.43869,-7.29219,0.000853861
+central,Low-carbon control,6.43869,-1.89357,-0.00453481
+chi = 0.2,Oil & gas,6.43869,19.1193,-0.0252341
+chi = 0.2,Utilities,6.43869,-4.09622,-0.00233973
+chi = 0.2,Low-carbon control,6.43869,-1.89357,-0.00453481
+chi = 1,Oil & gas,6.43869,159.265,-0.152703
+chi = 1,Utilities,6.43869,-12.3623,0.00594117
+chi = 1,Low-carbon control,6.43869,-1.89357,-0.00453481
+sigma_A x 0.75,Oil & gas,6.43869,83.0776,-0.0856266
+sigma_A x 0.75,Utilities,6.43869,-9.63029,0.00319669
+sigma_A x 0.75,Low-carbon control,6.43869,-2.51551,-0.00391549
+sigma_A x 1.25,Oil & gas,6.43869,46.0961,-0.0511787
+sigma_A x 1.25,Utilities,6.43869,-5.86725,-0.000571279
+sigma_A x 1.25,Low-carbon control,6.43869,-1.51819,-0.00490841
+convergence 2040,Oil & gas,16.1518,64.5189,-0.0775026
+convergence 2040,Utilities,16.1518,-20.7457,0.00460446
+convergence 2040,Low-carbon control,16.1518,-4.67175,-0.0114144
+convergence 2060,Oil & gas,2.39258,57.4895,-0.0581244
+convergence 2060,Utilities,2.39258,-1.29162,-0.00110035
+convergence 2060,Low-carbon control,2.39258,-0.708518,-0.00168264
+no catch-up (credit shock),Oil & gas,6.43869,52.064,-0.0568243
+no catch-up (credit shock),Utilities,6.43869,3.2979,-0.00968934
+no catch-up (credit shock),Low-carbon control,6.43869,-1.89357,-0.00453481
+kappa = 0 (look-through),Oil & gas,-4.4733,63.7431,-0.0575476
+kappa = 0 (look-through),Utilities,-4.4733,-4.19358,0.00870455
+kappa = 0 (look-through),Low-carbon control,-4.4733,1.34027,0.00313794
+no rate drift in PDs,Oil & gas,6.43869,61.9436,-0.0660966
+no rate drift in PDs,Utilities,6.43869,-5.47325,-0.00096498
+no rate drift in PDs,Low-carbon control,6.43869,2.84217e-14,-0.00641801

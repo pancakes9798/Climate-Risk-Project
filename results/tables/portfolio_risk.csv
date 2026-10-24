@@ -1,0 +1,49 @@
+nu,copula,measure,scenario,expected_loss,var,es,mode
+14.4309,Student t (CDS),Risk-neutral,Baseline (market-implied),0.031892,0.267692,0.335829,cds
+14.4309,Student t (CDS),Risk-neutral,SSP1 - 2.6,0.0350073,0.286154,0.346205,cds
+14.4309,Student t (CDS),Risk-neutral,SSP1 - 1.9,0.0456592,0.313846,0.373938,cds
+14.4309,Student t (CDS),Risk-neutral,SSP2 - 4.5,0.0320242,0.267692,0.336512,cds
+14.4309,Student t (CDS),Risk-neutral,SSP2 - 2.6,0.0328883,0.276923,0.339051,cds
+14.4309,Student t (CDS),Risk-neutral,SSP2 - 1.9,0.038559,0.295385,0.355398,cds
+14.4309,Student t (CDS),Risk-neutral,SSP5 - 2.6,0.0343988,0.276923,0.344183,cds
+14.4309,Student t (CDS),Risk-neutral,SSP5 - 1.9,0.0405469,0.295385,0.36228,cds
+14.4309,Student t (CDS),Physical,Baseline (market-implied),0.0136019,0.175385,0.238855,cds
+14.4309,Student t (CDS),Physical,SSP1 - 2.6,0.015219,0.184615,0.250523,cds
+14.4309,Student t (CDS),Physical,SSP1 - 1.9,0.0209645,0.221538,0.283255,cds
+14.4309,Student t (CDS),Physical,SSP2 - 4.5,0.0136678,0.175385,0.239358,cds
+14.4309,Student t (CDS),Physical,SSP2 - 2.6,0.0141091,0.175385,0.242345,cds
+14.4309,Student t (CDS),Physical,SSP2 - 1.9,0.0170998,0.193846,0.261462,cds
+14.4309,Student t (CDS),Physical,SSP5 - 2.6,0.0148968,0.184615,0.248331,cds
+14.4309,Student t (CDS),Physical,SSP5 - 1.9,0.0181458,0.203077,0.26868,cds
+,Gaussian (CDS),Risk-neutral,Baseline (market-implied),0.0320665,0.249231,0.305815,cds
+,Gaussian (CDS),Risk-neutral,SSP1 - 2.6,0.0352044,0.258462,0.317248,cds
+,Gaussian (CDS),Risk-neutral,SSP1 - 1.9,0.0458958,0.295385,0.3498,cds
+,Gaussian (CDS),Risk-neutral,SSP2 - 4.5,0.0321993,0.249231,0.306374,cds
+,Gaussian (CDS),Risk-neutral,SSP2 - 2.6,0.0330485,0.249231,0.309309,cds
+,Gaussian (CDS),Risk-neutral,SSP2 - 1.9,0.0387866,0.267692,0.328195,cds
+,Gaussian (CDS),Risk-neutral,SSP5 - 2.6,0.0345971,0.258462,0.315115,cds
+,Gaussian (CDS),Risk-neutral,SSP5 - 1.9,0.0407908,0.276923,0.335912,cds
+,Gaussian (CDS),Physical,Baseline (market-implied),0.0136986,0.147692,0.202629,cds
+,Gaussian (CDS),Physical,SSP1 - 2.6,0.0153161,0.156923,0.215142,cds
+,Gaussian (CDS),Physical,SSP1 - 1.9,0.0210982,0.193846,0.25086,cds
+,Gaussian (CDS),Physical,SSP2 - 4.5,0.0137669,0.147692,0.203165,cds
+,Gaussian (CDS),Physical,SSP2 - 2.6,0.0142122,0.147692,0.206585,cds
+,Gaussian (CDS),Physical,SSP2 - 1.9,0.0172239,0.175385,0.227178,cds
+,Gaussian (CDS),Physical,SSP5 - 2.6,0.0149992,0.156923,0.212705,cds
+,Gaussian (CDS),Physical,SSP5 - 1.9,0.018252,0.175385,0.234448,cds
+,Gaussian (Basel IRB ρ),Risk-neutral,Baseline (market-implied),0.0321515,0.166154,0.20568,cds
+,Gaussian (Basel IRB ρ),Risk-neutral,SSP1 - 2.6,0.0352922,0.175385,0.215825,cds
+,Gaussian (Basel IRB ρ),Risk-neutral,SSP1 - 1.9,0.0459586,0.203077,0.246069,cds
+,Gaussian (Basel IRB ρ),Risk-neutral,SSP2 - 4.5,0.0322818,0.166154,0.206146,cds
+,Gaussian (Basel IRB ρ),Risk-neutral,SSP2 - 2.6,0.0331358,0.175385,0.209114,cds
+,Gaussian (Basel IRB ρ),Risk-neutral,SSP2 - 1.9,0.0388306,0.184615,0.225609,cds
+,Gaussian (Basel IRB ρ),Risk-neutral,SSP5 - 2.6,0.0346765,0.175385,0.213905,cds
+,Gaussian (Basel IRB ρ),Risk-neutral,SSP5 - 1.9,0.0408282,0.193846,0.23244,cds
+,Gaussian (Basel IRB ρ),Physical,Baseline (market-implied),0.0136998,0.0923077,0.125437,cds
+,Gaussian (Basel IRB ρ),Physical,SSP1 - 2.6,0.0153127,0.101538,0.133689,cds
+,Gaussian (Basel IRB ρ),Physical,SSP1 - 1.9,0.021131,0.129231,0.159351,cds
+,Gaussian (Basel IRB ρ),Physical,SSP2 - 4.5,0.0137642,0.0923077,0.125811,cds
+,Gaussian (Basel IRB ρ),Physical,SSP2 - 2.6,0.014205,0.101538,0.127948,cds
+,Gaussian (Basel IRB ρ),Physical,SSP2 - 1.9,0.0172348,0.110769,0.141868,cds
+,Gaussian (Basel IRB ρ),Physical,SSP5 - 2.6,0.0149991,0.101538,0.131811,cds
+,Gaussian (Basel IRB ρ),Physical,SSP5 - 1.9,0.0182854,0.12,0.147498,cds
