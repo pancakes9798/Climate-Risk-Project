@@ -57,8 +57,8 @@ vintage behind the published results. `climate-risk download` refreshes them. Se
 Following Diebold & Li (2006), the zero-coupon yield of maturity $\tau$ (years) in month $t$ is
 
 $$
-y_t(\tau) = \beta_{1t} + \beta_{2t}\,\frac{1-e^{-\lambda\tau}}{\lambda\tau}
-+ \beta_{3t}\left[\frac{1-e^{-\lambda\tau}}{\lambda\tau}-e^{-\lambda\tau}\right] + \varepsilon_t(\tau).
+y_t(\tau) = \beta_{1t} + \beta_{2t}\,\frac{1-e^{-\lambda\tau}}{\lambda\tau} +
+\beta_{3t}\left[\frac{1-e^{-\lambda\tau}}{\lambda\tau}-e^{-\lambda\tau}\right] + \varepsilon_t(\tau).
 $$
 
 The decay $\lambda$ is held **constant over time**. The loadings are then fixed, the betas are
@@ -193,13 +193,13 @@ derived rates (growth, inflation) have no jump at $T_c$. Two variants of the rul
 following Gidden et al.:
 
 - **Additive offset, for growth rates:**
-  $\tilde v(t) = v(t) + [v^{\text{obs}}_{T_0} - v(T_0)]\,w(t)$.
+  $\tilde v(t) = v(t) + [\bar v - v(T_0)]\,w(t)$, where $\bar v$ is the observed value at $T_0$.
 - **Ratio, for positive quantities:**
-  $\tilde v(t) = v(t)\,\big[1 + \big(v^{\text{obs}}_{T_0}/v(T_0) - 1\big)\,w(t)\big]$.
+  $\tilde v(t) = v(t)\,\big[1 + \big(\bar v/v(T_0) - 1\big)\,w(t)\big]$.
   It applies to the carbon-cost share $c$ (observed value 0.1%) and to the policy-to-baseline
   output ratio $1+u$ of Section 4.3 (observed value 1: no divergence yet). It keeps the
-  quantity positive, and it scales the IAM's rate of change at $T_0$ by
-  $v^{\text{obs}}_{T_0}/v(T_0)$, whereas the offset would carry it over unchanged. In the
+  quantity positive, and it scales the IAM's rate of change at $T_0$ by $\bar v/v(T_0)$,
+  whereas the offset would carry it over unchanged. In the
   1.5 °C pathways (SSP1/2/5-1.9) the carbon bill at $T_0$ is 14 to 27 times today's, and 6 to
   10 times in the 2.6 pathways. The offset would then start the projection with the IAM's
   2020s ramp: in SSP1-1.9, carbon-price inflation of about 0.5 pp a year from the first month.
@@ -387,8 +387,8 @@ where $v$ is the revelation date ($v_0$ when the transition is priced today). Th
 zero-coupon corporate bond, $Z=e^{-(y_f+s)T}$, then changes by
 
 $$
-\frac{Z_P}{Z_B}-1 = \underbrace{\left(e^{-\Delta y\, T}-1\right)}_{\text{risk-free}}
-+ \underbrace{\left(e^{-\Delta s\,T}-1\right)}_{\text{credit}} + \text{interaction},
+\frac{Z_P}{Z_B}-1 = \underbrace{\left(e^{-\Delta y\, T}-1\right)}_{\text{risk-free}} +
+\underbrace{\left(e^{-\Delta s\,T}-1\right)}_{\text{credit}} + \text{interaction},
 $$
 
 an exact decomposition.
