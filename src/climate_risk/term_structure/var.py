@@ -32,7 +32,7 @@ class VAR1:
     @property
     def mean(self) -> FloatArray:
         """Unconditional mean (I − Φ)⁻¹ c."""
-        return np.linalg.solve(np.eye(self.k) - self.phi, self.intercept)
+        return np.asarray(np.linalg.solve(np.eye(self.k) - self.phi, self.intercept), np.float64)
 
     @property
     def eigenvalues(self) -> NDArray[np.complex128]:
@@ -95,7 +95,8 @@ def fit_var1(data: pd.DataFrame) -> VAR1:
     values = _check(data)
     y, x_lag = values[1:], values[:-1]
     design = np.column_stack([np.ones(len(x_lag)), x_lag])
-    coef, *_ = np.linalg.lstsq(design, y, rcond=None)
+    solution, *_ = np.linalg.lstsq(design, y, rcond=None)
+    coef = np.asarray(solution, dtype=np.float64)
     resid = y - design @ coef
     dof = len(y) - design.shape[1]
     return VAR1(
