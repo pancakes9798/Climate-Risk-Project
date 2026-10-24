@@ -3,19 +3,29 @@
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 .env
+*.egg-info/
+build/
+dist/
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
 
+# Data: raw downloads are reproducible (`climate-risk download`); licensed data never leaves the machine
+data/raw/
+data/private/
+**/cds*.csv
 
-
+# Personal folders
 Books/
-data/cds.csv
-data/cds.csv
-data/cds.csv
-
-# R
 .Rhistory
