@@ -1,0 +1,7 @@
+model,mode,eigenvalue_modulus,half_life_months
+Shifting-endpoint VAR(1) (cycle),1,0.988823,61.6658
+Shifting-endpoint VAR(1) (cycle),2,0.944717,12.1882
+Shifting-endpoint VAR(1) (cycle),3,0.920971,8.4195
+Constant-mean VAR(1) (betas),1,0.991989,86.1742
+Constant-mean VAR(1) (betas),2,0.979397,33.296
+Constant-mean VAR(1) (betas),3,0.888444,5.86006

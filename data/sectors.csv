@@ -1,0 +1,68 @@
+ticker,company,sector
+BPLN,BP PLC,Oil & gas
+RDSALN,Royal Dutch Shell PLC,Oil & gas
+TTEFP,TotalEnergies,Oil & gas
+ENIIM,Eni SpA,Oil & gas
+REPSM,Repsol SA,Oil & gas
+EQNR,Equinor ASA,Oil & gas
+GALPPL,Galp Energia SGPS SA,Oil & gas
+XOM,Exxon Mobil Corp,Oil & gas
+CVX,Chevron Corp,Oil & gas
+COP,ConocoPhillips,Oil & gas
+HES,Hess Corporation,Oil & gas
+DVN,Devon Energy,Oil & gas
+EOG,EOG Resources Inc,Oil & gas
+MRO,Marathon Oil Corp,Oil & gas
+NBL,Noble Energy,Oil & gas
+PXD,Pioneer Natural Resources Co,Oil & gas
+CNQCN,Canadian Natural Resources Ltd,Oil & gas
+SUCN,Suncor Energy Inc,Oil & gas
+WPLAU,Woodside,Oil & gas
+STOAU,Santos Ltd,Oil & gas
+RWE,RWE AG,Utilities
+EOANGR,E.ON SE,Utilities
+ENBW,EnBW Energie Baden Wuerttemberg AG,Utilities
+ENELIM,Enel SpA,Utilities
+IBESM,Iberdrola SA,Utilities
+EDF,Electricite de France SA,Utilities
+EDPPL,EDP Energias de Portugal SA,Utilities
+ENGIFP,Engie SA,Utilities
+FUMVFH,Fortum Oyj,Utilities
+VATFAL,Vattenfall AB,Utilities
+VERAV,Verbund AG,Utilities
+NTGYSM,Naturgy Energy Group SA,Utilities
+SSELN,SSE PLC,Utilities
+ORSTED,Orsted A/S,Utilities
+AES,The AES Corporation,Utilities
+D,Dominion Energy,Utilities
+DTE,DTE Energy Co,Utilities
+SO,Southern Co,Utilities
+ETR,Entergy,Utilities
+NEE,NextEra Energy Inc,Utilities
+NRG,NRG Energy Inc,Utilities
+SRE,Sempra Energy,Utilities
+WEC,WEC Energy Group,Utilities
+KORELE,Korea Electric Power Corp,Utilities
+KANSEL,Kansai Electric Power Co,Utilities
+CHUGEP,Chugoku Electric Power Co,Utilities
+AAPL,Apple Inc,Low-carbon control
+MSFT,Microsoft Corp,Low-carbon control
+IBM,International Business Machines Corp,Low-carbon control
+ORCL,Oracle Corp,Low-carbon control
+CSCO,Cisco Systems Inc,Low-carbon control
+INTC,Intel Corp,Low-carbon control
+TXN,Texas Instruments Inc,Low-carbon control
+PFE,Pfizer Inc,Low-carbon control
+MRK,Merck & Co Inc,Low-carbon control
+JNJ,Johnson & Johnson,Low-carbon control
+ABT,Abbott Laboratories,Low-carbon control
+AMGN,Amgen Inc,Low-carbon control
+NOVNVX,Novartis AG,Low-carbon control
+AZN,AstraZeneca PLC,Low-carbon control
+GSK,GlaxoSmithKline PLC,Low-carbon control
+SANFP,Sanofi,Low-carbon control
+VZ,Verizon Communications Inc,Low-carbon control
+T,AT&T Inc,Low-carbon control
+DT,Deutsche Telekom AG,Low-carbon control
+ORAFP,Orange SA,Low-carbon control
+VOD,Vodafone Group PLC,Low-carbon control
