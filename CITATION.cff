@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Climate transition risk in the yield curve and in corporate credit spreads"
+version: 2.0.0
+date-released: 2026-10-24
+license: MIT
+repository-code: "https://github.com/pancakes9798/Climate-Risk-Project"
+authors:
+  - family-names: Migliaccio
+    given-names: Emanuele
+    affiliation: "Sapienza University of Rome"
+keywords:
+  - climate risk
+  - term structure of interest rates
+  - Nelson-Siegel
+  - credit spreads
+  - Shared Socioeconomic Pathways
+  - copula
+abstract: >-
+  Projections of the US Treasury yield curve and of sector credit spreads to 2100 under the
+  Shared Socioeconomic Pathways. A shifting-endpoint dynamic Nelson-Siegel model anchored to
+  the natural rate of interest is combined with CDS-calibrated, Battiston-Monasterolo climate
+  spreads and t-copula portfolio losses.
